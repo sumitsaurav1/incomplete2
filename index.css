@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.post-items{
+    display: flex;
+    flex-direction: column;
+    background-color:azure;
+    gap: 5px;
+    padding: 1vw 1.5vw;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 2px rgb(66, 84, 84);
+    border-radius: 10px;
+    width: 26vw;
+    border: 1px solid azure;
+    transition: 0.5s ease-in-out;
+}
+.post-items h3{
+    text-align: end;
+}
+.post-items .tag{
+   color: blue;
+}
+.post{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1vw;
+    margin: 10px 4vw;
+}
+.post-items:hover{
+    transform: scale(1.03);
+    border: 1px solid gray;
+}
